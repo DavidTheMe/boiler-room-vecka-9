@@ -1,65 +1,20 @@
-import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { addToPlaylist, removeFromPlaylist } from "../redux/slice";
+import useFetchSongs from "../utils/FetchSongs";
+import PopularSongs from "../components/Home/ShowPopularSongs";
+import NewReleases from "../components/Home/ShowNewReleases";
 
 const Home = () => {
-  const [recentlyClicked, setRecentlyClicked] = useState<any[]>([]);
-  const [popularSongs, setPopularSongs] = useState<any[]>([]);
-  const [newReleases, setNewReleases] = useState<any[]>([]);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    fetch("../data/songs.json")
-    .then((response) => response.json())
-    .then((data) => {
-      setPopularSongs(data.popularSongs);
-      setNewReleases(data.newReleases);
-    });
-  }, []);
+  const { popularSongs, newReleases } = useFetchSongs();
 
   return (
     <div>
+      <PopularSongs songs={popularSongs} />
+      <NewReleases songs={newReleases} />
       <section>
-        <h2>Heta låtar just nu</h2>
-        <div>
-          {popularSongs.map((song) => (
-            <div key={song.id}>
-              <img src={song.cover} alt={song.songTitle} />
-              <h3>{song.songTitle}</h3>
-              <p>{song.artist}</p>
-              <p>{song.albumTitle}</p>
-              <button 
-              onClick={() => dispatch(addToPlaylist(song))}
-              className = ""
-              >Lägg till i din spellista</button>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section>
-        <h2>Nya releaser</h2>
-        <div>
-          {newReleases.map((song) => (
-            <div key={song.id}>
-              <img src={song.cover} alt={song.songTitle} />
-              <h3>{song.songTitle}</h3>
-              <p>{song.artist}</p>
-              <p>{song.albumTitle}</p>
-              <button 
-              onClick={() => dispatch(addToPlaylist(song))}
-              className = ""
-              >Lägg till i din spellista</button>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section>
-
+        <h2>Statistik</h2>
+        {/* Add your bar chart component here */}
       </section>
     </div>
-  )
-}
+  );
+};
 
-
+export default Home;
