@@ -1,0 +1,33 @@
+{
+    "popularSongs": [
+      { "id": 1, "songTitle": "Blinding Lights", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 2, "songTitle": "Save Your Tears", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 3, "songTitle": "Levitating", "albumTitle": "", "artist": "Dua Lipa", "cover": "https://via.placeholder.com/150" },
+      { "id": 4, "songTitle": "Peaches", "albumTitle": "", "artist": "Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 5, "songTitle": "Watermelon Sugar", "albumTitle": "", "artist": "Harry Styles", "cover": "https://via.placeholder.com/150" },
+      { "id": 6, "songTitle": "Circles", "albumTitle": "", "artist": "Post Malone", "cover": "https://via.placeholder.com/150" }
+    ],
+    "newReleases": [
+      { "id": 7, "songTitle": "Easy On Me", "albumTitle": "", "artist": "Adele", "cover": "https://via.placeholder.com/150" },
+      { "id": 8, "songTitle": "STAY", "albumTitle": "", "artist": "The Kid LAROI, Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 9, "songTitle": "Bad Habits", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 10, "songTitle": "Shivers", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 11, "songTitle": "My Universe", "albumTitle": "", "artist": "Coldplay & BTS", "cover": "https://via.placeholder.com/150" },
+      { "id": 12, "songTitle": "Industry Baby", "albumTitle": "", "artist": "Lil Nas X & Jack Harlow", "cover": "https://via.placeholder.com/150" }
+    ],
+    "allSongs": [
+      { "id": 1, "songTitle": "Blinding Lights", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 2, "songTitle": "Save Your Tears", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 3, "songTitle": "Levitating", "albumTitle": "", "artist": "Dua Lipa", "cover": "https://via.placeholder.com/150" },
+      { "id": 4, "songTitle": "Peaches", "albumTitle": "", "artist": "Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 5, "songTitle": "Watermelon Sugar", "albumTitle": "", "artist": "Harry Styles", "cover": "https://via.placeholder.com/150" },
+      { "id": 6, "songTitle": "Circles", "albumTitle": "", "artist": "Post Malone", "cover": "https://via.placeholder.com/150" },
+      { "id": 7, "songTitle": "Easy On Me", "albumTitle": "", "artist": "Adele", "cover": "https://via.placeholder.com/150" },
+      { "id": 8, "songTitle": "STAY", "albumTitle": "", "artist": "The Kid LAROI, Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 9, "songTitle": "Bad Habits", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 10, "songTitle": "Shivers", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 11, "songTitle": "My Universe", "albumTitle": "", "artist": "Coldplay & BTS", "cover": "https://via.placeholder.com/150" },
+      { "id": 12, "songTitle": "Industry Baby", "albumTitle": "", "artist": "Lil Nas X & Jack Harlow", "cover": "https://via.placeholder.com/150" }
+    ],
+    "recentlyClicked": []
+  }
