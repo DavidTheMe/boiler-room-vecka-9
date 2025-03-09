@@ -1,7 +1,19 @@
 import { useDispatch } from "react-redux";
-import { addToPlaylist } from "../redux/slice";
+import { addToPlaylist } from "../../redux/slice";
 
-const NewReleases = ({ songs }) => {
+interface Song {
+  id: number;
+  songTitle: string;
+  albumTitle: string;
+  artist: string;
+  cover: string;
+}
+
+interface NewReleasesProps {
+  songs: Song[];    
+}
+
+const NewReleases: React.FC<NewReleasesProps> = ({ songs }) => {
   const dispatch = useDispatch();
 
   return (
