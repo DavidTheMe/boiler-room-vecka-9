@@ -1,6 +1,7 @@
 import useFetchSongs from "../utils/FetchSongs";
 import PopularSongs from "../components/Home/ShowPopularSongs";
 import NewReleases from "../components/Home/ShowNewReleases";
+import ShowStatistics from "../components/Home/ShowStatistics";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 
@@ -12,10 +13,7 @@ const Home = () => {
     <Provider store={store}>
       <PopularSongs songs={popularSongs} />
       <NewReleases songs={newReleases} />
-      <section>
-        <h2>Statistik</h2>
-        {/* Add your bar chart component here */}
-      </section>
+      <ShowStatistics />
     </Provider>
   );
 };

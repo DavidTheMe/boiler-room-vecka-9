@@ -22,10 +22,9 @@ const NewReleases: React.FC<NewReleasesProps> = ({ songs }) => {
       <div>
         {songs.map((song) => (
           <div key={song.id}>
-            <img src={song.cover} alt={song.songTitle} />
-            <h3>{song.songTitle}</h3>
+            <img src={song.cover} alt={song.albumTitle} />
+            <h3>{song.albumTitle}</h3>
             <p>{song.artist}</p>
-            <p>{song.albumTitle}</p>
             <button 
               onClick={() => dispatch(addToPlaylist(song))}
               className=""
