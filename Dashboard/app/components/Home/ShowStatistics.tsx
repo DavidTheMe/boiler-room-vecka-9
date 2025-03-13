@@ -14,7 +14,7 @@ const ShowStatistics: React.FC = () => {
     labels: Object.keys(statistics),
     datasets: [
       {
-        label: 'Streams',
+        label: 'Antal lyssningar',
         data: Object.values(statistics),
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderColor: 'rgba(75, 192, 192, 1)',
@@ -31,15 +31,17 @@ const ShowStatistics: React.FC = () => {
       },
       title: {
         display: true,
-        text: 'Song Streams Statistics',
+        text: 'Populäraste låtarna just nu',
       },
     },
   };
 
   return (
-    <div>
-      <h2>Song Streams Statistics</h2>
+    <div className="p-6 max-w-7x1 mx-auto">
+      <h2 className="text-2x1 font-bold mb-6 text-center">Statistik</h2>
+      <div className ="bg-white shadow-md rounded-lg p-6">
       <Bar data={data} options={options} />
+      </div>
     </div>
   );
 };
