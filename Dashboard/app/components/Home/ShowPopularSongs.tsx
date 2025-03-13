@@ -17,19 +17,23 @@ const PopularSongs: React.FC<PopularSongsProps> = ({ songs }) => {
     const dispatch = useDispatch();
 
     return (
-        <section>
-            <h2>Heta låtar just nu</h2>
-            <div>
+        <section className="p-6">
+            <h2 className="text-2x1 font-bold mb-6">Heta låtar just nu</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {songs.map((song) => (
-                    <div key={song.id}>
-                        <img src={song.cover} alt={song.songTitle} />
-                        <h3>{song.songTitle}</h3>
-                        <p>{song.artist}</p>
-                        <p>{song.albumTitle}</p>
-                        <button 
-                            onClick={() => dispatch(addToPlaylist(song))}
-                            className = ""
-                        >Lägg till i din spellista</button>
+                    <div key={song.id} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                        <img src={song.cover} alt={song.songTitle} className="w-full h-48 object-cover" />
+                        <div className="p-4">
+              <h3 className="text-lg font-semibold">{song.songTitle}</h3>
+              <p className="text-gray-600">{song.artist}</p>
+              <p className="text-gray-500 text-sm">{song.albumTitle}</p>
+              <button
+                onClick={() => dispatch(addToPlaylist(song))}
+                className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+              >
+                Lägg till i din spellista
+              </button>
+            </div>
                     </div>
                 ))}
             </div>
