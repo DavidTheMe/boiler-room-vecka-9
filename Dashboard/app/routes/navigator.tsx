@@ -1,13 +1,14 @@
 import { Link } from "react-router";
-import "./navigator.css";
 
 const Navigator = () => {
   return (
     <>
-    <input></input>
-    <Link to="/">Home</Link>
-    <Link to="/search">Search</Link>
-    <Link to="/details">Details</Link>
+      <div class='p-5 bg-blue-50'>
+        <Link to="/" className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300" >Home</Link>
+        <input></input>
+        {/* <Link to="/search">Search</Link>
+    <Link to="/details">Details</Link> */}
+      </div>
     </>
   );
 }
