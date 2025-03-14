@@ -2,6 +2,7 @@ import useFetchSongs from "../utils/FetchSongs";
 import PopularSongs from "../components/Home/ShowPopularSongs";
 import NewReleases from "../components/Home/ShowNewReleases";
 import ShowStatistics from "../components/Home/ShowStatistics";
+import Navigator from "./navigator.tsx";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 
