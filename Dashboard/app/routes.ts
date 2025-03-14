@@ -7,3 +7,4 @@ export default [
     route("details", "routes/detailsPage.tsx"),
     route("search", "routes/searchPage.tsx"),
 ] satisfies RouteConfig;
+
