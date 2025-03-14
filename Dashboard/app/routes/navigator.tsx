@@ -1,4 +1,9 @@
 import { Link } from "react-router";
+import { Provider } from "react-redux";
+import store from "../redux/store";
+import React from "react";
+import type { ReactNode } from "react";
+import Footer from "../components/Footer/footer"
 
 const Navigator = () =>{
   return (
