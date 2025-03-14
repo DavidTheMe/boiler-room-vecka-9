@@ -1,4 +1,4 @@
-import Navigator from "./navigator.tsx";
+import Navigator from "./navigator";
 
 const DetailsPage = () => {
   return (
