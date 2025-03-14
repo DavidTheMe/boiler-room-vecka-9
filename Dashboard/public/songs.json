@@ -1,0 +1,63 @@
+{
+    "popularSongs": [
+      { "id": 1, "songTitle": "Blinding Lights", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 2, "songTitle": "Save Your Tears", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 3, "songTitle": "Levitating", "albumTitle": "", "artist": "Dua Lipa", "cover": "https://via.placeholder.com/150" },
+      { "id": 4, "songTitle": "Peaches", "albumTitle": "", "artist": "Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 5, "songTitle": "Watermelon Sugar", "albumTitle": "", "artist": "Harry Styles", "cover": "https://via.placeholder.com/150" },
+      { "id": 6, "songTitle": "Circles", "albumTitle": "", "artist": "Post Malone", "cover": "https://via.placeholder.com/150" }
+    ],
+    "newReleases": [
+      { "id": 7, "albumTitle": "", "artist": "Adele", "cover": "https://via.placeholder.com/150" },
+      { "id": 8, "albumTitle": "", "artist": "The Kid LAROI, Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 9, "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 10, "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 11, "albumTitle": "", "artist": "Coldplay & BTS", "cover": "https://via.placeholder.com/150" },
+      { "id": 12, "albumTitle": "", "artist": "Lil Nas X & Jack Harlow", "cover": "https://via.placeholder.com/150" }
+    ],
+    "allSongs": [
+      { "id": 1, "songTitle": "Blinding Lights", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 2, "songTitle": "Save Your Tears", "albumTitle": "", "artist": "The Weeknd", "cover": "https://via.placeholder.com/150" },
+      { "id": 3, "songTitle": "Levitating", "albumTitle": "", "artist": "Dua Lipa", "cover": "https://via.placeholder.com/150" },
+      { "id": 4, "songTitle": "Peaches", "albumTitle": "", "artist": "Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 5, "songTitle": "Watermelon Sugar", "albumTitle": "", "artist": "Harry Styles", "cover": "https://via.placeholder.com/150" },
+      { "id": 6, "songTitle": "Circles", "albumTitle": "", "artist": "Post Malone", "cover": "https://via.placeholder.com/150" },
+      { "id": 7, "songTitle": "Easy On Me", "albumTitle": "", "artist": "Adele", "cover": "https://via.placeholder.com/150" },
+      { "id": 8, "songTitle": "STAY", "albumTitle": "", "artist": "The Kid LAROI, Justin Bieber", "cover": "https://via.placeholder.com/150" },
+      { "id": 9, "songTitle": "Bad Habits", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 10, "songTitle": "Shivers", "albumTitle": "", "artist": "Ed Sheeran", "cover": "https://via.placeholder.com/150" },
+      { "id": 11, "songTitle": "My Universe", "albumTitle": "", "artist": "Coldplay & BTS", "cover": "https://via.placeholder.com/150" },
+      { "id": 12, "songTitle": "Industry Baby", "albumTitle": "", "artist": "Lil Nas X & Jack Harlow", "cover": "https://via.placeholder.com/150" },
+      { "id": 13, "songTitle": "Good 4 U", "albumTitle": "", "artist": "Olivia Rodrigo", "cover": "https://via.placeholder.com/150" },
+      { "id": 14, "songTitle": "Montero (Call Me By Your Name)", "albumTitle": "", "artist": "Lil Nas X", "cover": "https://via.placeholder.com/150" },
+      { "id": 15, "songTitle": "Kiss Me More", "albumTitle": "", "artist": "Doja Cat ft. SZA", "cover": "https://via.placeholder.com/150" },
+      { "id": 16, "songTitle": "Deja Vu", "albumTitle": "", "artist": "Olivia Rodrigo", "cover": "https://via.placeholder.com/150" },
+      { "id": 17, "songTitle": "Leave The Door Open", "albumTitle": "", "artist": "Bruno Mars, Anderson .Paak, Silk Sonic", "cover": "https://via.placeholder.com/150" },
+      { "id": 18, "songTitle": "drivers license", "albumTitle": "", "artist": "Olivia Rodrigo", "cover": "https://via.placeholder.com/150" },
+      { "id": 19, "songTitle": "Butter", "albumTitle": "", "artist": "BTS", "cover": "https://via.placeholder.com/150" },
+      { "id": 20, "songTitle": "The Summoning", "albumTitle": "Take Me Back To Eden", "artist": "Sleep Token", "cover": "https://via.placeholder.com/150" }
+    ],
+    "recentlyClicked": [],
+    "statistics": {
+      "Blinding Lights": 2500000000,
+      "Save Your Tears": 1500000000,
+      "Levitating": 1800000000,
+      "Peaches": 1200000000,
+      "Watermelon Sugar": 1300000000,
+      "Circles": 1400000000,
+      "Easy On Me": 1000000000,
+      "STAY": 1100000000,
+      "Bad Habits": 900000000,
+      "Shivers": 800000000,
+      "My Universe": 700000000,
+      "Industry Baby": 600000000,
+      "Good 4 U": 2000000000,
+      "Montero (Call Me By Your Name)": 1700000000,
+      "Kiss Me More": 1600000000,
+      "Deja Vu": 1500000000,
+      "Leave The Door Open": 1400000000,
+      "drivers license": 2100000000,
+      "Butter": 2200000000,
+      "The Summoning": 1900000000      
+    }
+  }
