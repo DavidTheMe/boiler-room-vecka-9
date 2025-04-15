@@ -1,19 +1,9 @@
 @import "tailwindcss";
 
-@theme {
+ @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
-}
-
+} 
 
 .topnav {
   overflow: hidden;
@@ -64,5 +54,28 @@ body {
 
 .topnav .search-container button:hover {
   background: #ccc;
+}
+
+/* DARKMODE */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  background-color: rgb(235, 235, 235);
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card.dark-mode {
+  background-color: #2e2e2e;
+  color: white;
 }
 

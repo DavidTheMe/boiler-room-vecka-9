@@ -21,7 +21,7 @@ const NewReleases: React.FC<NewReleasesProps> = ({ songs }) => {
       <h2 className="text-2x1 font-bold mb-6">Nya releaser</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {songs.map((song) => (
-          <div key={song.id} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+          <div key={song.id} className="shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 card">
             <img src={song.cover} alt={song.albumTitle} className="w-full h-48 object-cover"/>
             <div className="p-4">
             <h3 className="text-lg font-semibold">{song.albumTitle}</h3>

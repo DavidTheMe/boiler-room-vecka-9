@@ -21,7 +21,7 @@ const PopularSongs: React.FC<PopularSongsProps> = ({ songs }) => {
             <h2 className="text-2x1 font-bold mb-6">Heta låtar just nu</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {songs.map((song) => (
-                    <div key={song.id} className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <div key={song.id} className="card shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
                         <img src={song.cover} alt={song.songTitle} className="w-full h-48 object-cover" />
                         <div className="p-4">
               <h3 className="text-lg font-semibold">{song.songTitle}</h3>

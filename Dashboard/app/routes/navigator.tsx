@@ -4,6 +4,7 @@ import store from "../redux/store";
 import React from "react";
 import type { ReactNode } from "react";
 import { useState } from "react";
+import DarkmodeButton from "../components/darkmodeButton";
 //import Footer from "../components/Footer/footer";
 
 const Navigator = () => {
@@ -20,7 +21,7 @@ const Navigator = () => {
 
   return (
     <>
-      <div className="p-5 bg-blue-50">
+      <div className="p-5 bg-blue-50 card">
         <Link
           to="/"
           className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
@@ -39,6 +40,7 @@ const Navigator = () => {
         >
           Search
         </Link>
+        <DarkmodeButton />
       </div>
     </>
   );

@@ -39,7 +39,7 @@ const ShowStatistics: React.FC = () => {
   return (
     <div className="p-6 max-w-7x1 mx-auto">
       <h2 className="text-2x1 font-bold mb-6 text-center">Statistik</h2>
-      <div className ="bg-white shadow-md rounded-lg p-6">
+      <div className ="card shadow-md rounded-lg p-6">
       <Bar data={data} options={options} />
       </div>
     </div>
