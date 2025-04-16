@@ -24,18 +24,21 @@ const Navigator = () => {
       <div className="p-5 bg-blue-50 card">
         <Link
           to="/"
-          className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+          className="navButton mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+          aria-label="Gå till hem"
         >
           Home
         </Link>
         <input
+          aria-label="Skriv låtnamn"
         onChange={(e) => setSearchQuery(e.target.value)}
         type="text"
         value={searchQuery}
          className="bg-gray-300 border-solid border-gray-600 rounded-md border-2 text-black"></input>
         <Link
+          aria-label="Sök"
           to="/search"
-          className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+          className="navButton mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
           state={{ query: searchQuery }}
         >
           Search

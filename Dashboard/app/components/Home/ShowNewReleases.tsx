@@ -27,8 +27,10 @@ const NewReleases: React.FC<NewReleasesProps> = ({ songs }) => {
             <h3 className="text-lg font-semibold">{song.albumTitle}</h3>
             <p className="text-gray-600">{song.artist}</p>
             <button 
+              aria-label="Lägg till låt i spellista"
               onClick={() => dispatch(addToPlaylist(song))}
               className="mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+              
             >
               Lägg till i din spellista
             </button>

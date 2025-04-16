@@ -31,7 +31,7 @@ const SearchPage = () => {
           />
         ))
       ) : (
-        <p>No results found.</p>
+        <p>Inga resultat hittades</p>
       )}
     </>
   );

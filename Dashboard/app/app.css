@@ -79,3 +79,15 @@ body.dark-mode {
   color: white;
 }
 
+/* Keyboard navigering */
+button:focus{
+  background-color: #83dcff;
+}
+
+.navButton:focus{
+  background-color: #83dcff;
+}
+
+input:focus{
+  background-color: #ffffff;
+}
