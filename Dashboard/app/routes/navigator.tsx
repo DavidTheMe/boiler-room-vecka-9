@@ -27,7 +27,7 @@ const Navigator = () => {
           className="navButton mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
           aria-label="Gå till hem"
         >
-          Home
+          Hem
         </Link>
         <input
           aria-label="Skriv låtnamn"
@@ -41,7 +41,7 @@ const Navigator = () => {
           className="navButton mt-4 w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
           state={{ query: searchQuery }}
         >
-          Search
+          Sök
         </Link>
         <DarkmodeButton />
       </div>
