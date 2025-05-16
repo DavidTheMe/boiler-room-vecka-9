@@ -1,23 +1,38 @@
-// Måste köra npm install chart.js react-chartjs-2 för att kunna använda denna
+// ShowStatistics.tsx
+import React from "react";
+import { Bar } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 
-import React from 'react';
-import { Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
-import songsData from '../../../public/songs.json';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const ShowStatistics: React.FC = () => {
-  const statistics = songsData.statistics;
+ 
+  const statistics = {
+    "Blinding Lights": 183,
+    "Save your Tears": 210,
+    "Levitating": 132,
+    "Peaches": 97,
+    "Watermelon Sugar": 145,
+    "Circles": 168,
+  };
 
   const data = {
     labels: Object.keys(statistics),
     datasets: [
       {
-        label: 'Antal lyssningar',
+        label: "Antal lyssningar",
         data: Object.values(statistics),
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: "rgba(255, 159, 64, 0.2)",
+        borderColor: "rgba(255, 159, 64, 1)",
         borderWidth: 1,
       },
     ],
@@ -27,20 +42,20 @@ const ShowStatistics: React.FC = () => {
     responsive: true,
     plugins: {
       legend: {
-        position: 'top' as const,
+        position: "top" as const,
       },
       title: {
         display: true,
-        text: 'Populäraste låtarna just nu',
+        text: "Mest spelade låtar denna vecka",
       },
     },
   };
 
   return (
-    <div className="p-6 max-w-7x1 mx-auto">
-      <h2 className="text-2x1 font-bold mb-6 text-center">Statistik</h2>
-      <div className ="card shadow-md rounded-lg p-6">
-      <Bar data={data} options={options} />
+    <div className="p-6 max-w-7xl mx-auto">
+      <h2 className="text-2xl font-bold mb-6 text-center">Statistik</h2>
+      <div className="card shadow-md rounded-lg p-6">
+        <Bar data={data} options={options} />
       </div>
     </div>
   );

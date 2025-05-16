@@ -23,7 +23,7 @@ const DarkmodeButton = () => {
   return (
     <button
       onClick={toggleDarkmode}
-      className="float-right mt-0 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300"
+      className="float-right mt-0 bg-green-500 text-white py-2 px-4 rounded hover:bg-gren-600 transition-colors duration-300"
     >
       Darkmode
     </button>

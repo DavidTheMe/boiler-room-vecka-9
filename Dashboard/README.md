@@ -1,100 +1,90 @@
-# Welcome to React Router!
-
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- ✅ Server-side rendering för snabbare laddning
+- 🔁 Hot Module Replacement (HMR) för smidigare utveckling
+- 📦 Optimerad hantering av resurser och bundling
+- 🔄 Inbyggt stöd för dataladdning och mutationer
+- 🔐 TypeScript konfigurerat från början
+- 🎨 Styling med TailwindCSS
+- 📚 Utforska [React Router-dokumentationen](https://reactrouter.com/)
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Kom igång
+
+### 📦 Installera beroenden
+
+```bash
+npm install
+🔧 Starta utvecklingsservern
+bash
+Kopiera
+Redigera
+npm run dev
+Applikationen körs nu på http://localhost:5173.
+
+🏗️ Bygga för produktion
+Skapa en optimerad build för deployment:
+
+bash
+Kopiera
+Redigera
+npm run build
+🚢 Deployment
+📦 Docker
+Den här mallen inkluderar tre Dockerfiles, anpassade för olika paketverktyg:
+
+Dockerfile – för npm
+
+Dockerfile.pnpm – för pnpm
+
+Dockerfile.bun – för bun
+
+Så här bygger och kör du med Docker:
+
+bash
+Kopiera
+Redigera
+# För npm
+docker build -t my-app .
+
+# För pnpm
+docker build -f Dockerfile.pnpm -t my-app .
+
+# För bun
+docker build -f Dockerfile.bun -t my-app .
+
+# Starta containern
+docker run -p 3000:3000 my-app
+Den färdiga containern kan köras på vilken plattform som helst med Docker-stöd, till exempel:
+
+AWS ECS
+
+Google Cloud Run
+
+Azure Container Apps
+
+DigitalOcean App Platform
+
+Fly.io
+
+Railway
+
+⚙️ Manuell distribution
+Om du föredrar att distribuera Node-applikationer manuellt, är den inbyggda servern produktionsklar.
+
+Se till att distribuera utdata från npm run build:
+
+pgsql
+Kopiera
+Redigera
+├── package.json
+├── package-lock.json (eller pnpm-lock.yaml, eller bun.lockb)
+├── build/
+│   ├── client/    # Statisk frontend
+│   └── server/    # Server-renderad kod
+🎨 Styling
+Tailwind CSS är förkonfigurerat för snabb start, men du kan enkelt byta till ett annat ramverk om du föredrar det.
+
+
+
+
+

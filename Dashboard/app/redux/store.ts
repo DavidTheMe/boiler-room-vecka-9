@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import playlistReducer from "./slice";
+import playlistReducer from "../redux/slice";
 
 //DONT FORGET TO ADD TO ROUTING
 const store = configureStore({

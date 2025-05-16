@@ -1,4 +1,4 @@
-import Navigator from "./navigator";
+import Navigator from "app/routes/navigator";
 
 const DetailsPage = () => {
   return (

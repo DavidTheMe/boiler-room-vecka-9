@@ -1,4 +1,4 @@
-import Navigator from "./navigator";
+import Navigator from "app/routes/navigator";
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import SearchResultSong from "../components/SearchResultSong";

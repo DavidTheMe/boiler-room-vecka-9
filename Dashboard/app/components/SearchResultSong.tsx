@@ -6,7 +6,7 @@ const SearchResultSong = (props) => {
         <h3 className=" mr-8 w-1/5">{props.artist}</h3>
         <button
           aria-label="Lägg till låt i spellista"
-          className="rounded m-0 bg-blue-500 text-white py-2 px-4 hover:bg-blue-600 transition-colors duration-300"
+          className="rounded m-0 bg-green-500 text-white py-2 px-4 hover:bg-green-600 transition-colors duration-300"
         >
           Lägg till i spellista
         </button>

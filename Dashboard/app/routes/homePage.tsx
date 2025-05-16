@@ -4,13 +4,14 @@ import NewReleases from "../components/Home/ShowNewReleases";
 import ShowStatistics from "../components/Home/ShowStatistics";
 import { Provider } from "react-redux";
 import store from "../redux/store";
-import Navigator from "./navigator.tsx";
+import Navigator from "./navigator";
+import songs from '../../public/songs.json'
 
 const Home = () => {
   const { popularSongs, newReleases } = useFetchSongs();
 
   return (
-    // might need to change provider to router later
+    
     <>
     <Navigator />
     <Provider store={store}>
